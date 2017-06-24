@@ -9,6 +9,6 @@ function DeleteProject(){
     method: 'DELETE'
   })
   .then(() => {
-    window.location.href = '/index.html'
+    window.location.href = 'index.html'
   })
 }

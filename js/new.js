@@ -3,7 +3,6 @@ $(document).ready(() => {
 })
 
 function SaveProject(){
-  debugger;
   //Criando um objeto vazio que representa um projeto
   var p = {
     project:{
@@ -25,7 +24,7 @@ function SaveProject(){
     data: p
   })
   .then(() => {
-    window.location.href = "/index.html"
+    window.location.href = "index.html"
   })
 
 

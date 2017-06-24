@@ -16,7 +16,8 @@ function RenderProjects(projects){
             '       <div class="card-header">' + projects[i].title + '</div>' +
             '       <div class="card-block">' +
             '           <p>' + projects[i].description + '</p>' +
-            '           <a class="btn" href="/delete.html?id=' + projects[i].id + '" >Deletar</a>' +
+            '           <a class="btn" href="details.html?id=' + projects[i].id + '">Detalhes</a>' +
+            '           <a class="btn" href="delete.html?id=' + projects[i].id + '" >Deletar</a>' +
             '       </div>' +
             '   </div>' +
             '</div>'
